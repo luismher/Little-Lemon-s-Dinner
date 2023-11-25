@@ -49,6 +49,36 @@
                   endingLineNumber = "15"
                   offsetFromSymbolStart = "104">
                </Location>
+               <Location
+                  uuid = "41BDE552-6125-4170-BBC8-6EE7999C3CF6 - 1cefa0004fa673c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "41BDE552-6125-4170-BBC8-6EE7999C3CF6 - 820bff631004ec61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "112">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

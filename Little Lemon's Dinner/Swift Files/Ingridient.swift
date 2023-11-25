@@ -8,12 +8,14 @@
 import Foundation
 
 enum Ingridient: String, CaseIterable {
-    case spinach = "Spinach"
-    case broccoli = "Broccoli"
-    case carrot = "Carrot"
-    case Pasta = "Pasta"
-    case tomatosauce = "Tomato Sauce"
+    case a = "Spinach"
+    case b = "Broccoli"
+    case c = "Carrot"
+    case d = "Pasta"
+    case e = "Tomato Sauce"
 
 }
+
+
 
 

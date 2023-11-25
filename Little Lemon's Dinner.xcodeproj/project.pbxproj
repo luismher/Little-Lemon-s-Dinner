@@ -19,6 +19,7 @@
 		702A1A5D2B07B7B000CB5911 /* MenuCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A1A5C2B07B7B000CB5911 /* MenuCategory.swift */; };
 		702A1A5F2B07B7BC00CB5911 /* Ingridient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A1A5E2B07B7BC00CB5911 /* Ingridient.swift */; };
 		702A1A632B07C03600CB5911 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A1A622B07C03600CB5911 /* MenuItem.swift */; };
+		702A1A652B11644A00CB5911 /* MenuViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A1A642B11644A00CB5911 /* MenuViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		702A1A5C2B07B7B000CB5911 /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
 		702A1A5E2B07B7BC00CB5911 /* Ingridient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingridient.swift; sourceTree = "<group>"; };
 		702A1A622B07C03600CB5911 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		702A1A642B11644A00CB5911 /* MenuViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				702A1A5C2B07B7B000CB5911 /* MenuCategory.swift */,
 				702A1A622B07C03600CB5911 /* MenuItem.swift */,
+				702A1A642B11644A00CB5911 /* MenuViewViewModel.swift */,
 				702A1A5E2B07B7BC00CB5911 /* Ingridient.swift */,
 			);
 			path = "Swift Files";
@@ -294,6 +297,7 @@
 				702A1A5D2B07B7B000CB5911 /* MenuCategory.swift in Sources */,
 				702A1A632B07C03600CB5911 /* MenuItem.swift in Sources */,
 				702A1A5B2B06CC4000CB5911 /* MenuItemDetailsView.swift in Sources */,
+				702A1A652B11644A00CB5911 /* MenuViewViewModel.swift in Sources */,
 				702A1A5F2B07B7BC00CB5911 /* Ingridient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
