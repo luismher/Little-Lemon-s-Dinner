@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum SortBy: String, CaseIterable {
+    case a = "Most Popular"
+    case b = "Price Low To High"
+    case c = "A-Z"
+}

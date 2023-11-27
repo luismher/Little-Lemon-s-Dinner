@@ -31,15 +31,25 @@ struct MenuItemView: View {
                     Spacer()
             }
             LazyVGrid (columns: columnsGrid){
-                ForEach(menuItems) { item in
-                    NavigationLink(destination: MenuItemDetailsView, label: <#T##() -> View#>)
+                ForEach(menuItems) { menuItem in
+                    NavigationLink(destination: MenuItemDetailsView (menuItem: menuItem)){
+                        VStack {
+                            Rectangle()
+                            Text(menuItem.title)
+                        }
+                        .frame(height:120)
+                        .foregroundColor(.black)
+                    }
                 }
             }
-        }
+        }.padding()
     }
 }
 
-#Preview {
-        let ViewModel = MenuViewViewModel()
-    MenuItemView(ViewModel: MenuViewViewModel(), menuItems: ViewModel.food, menuCategory: .a)
+struct MenuItemView_Previews: PreviewProvider {
+    static var previews: some View {
+        let viewModel = MenuViewViewModel()
+        MenuItemView(ViewModel: MenuViewViewModel(), menuItems: viewModel.dessert, menuCategory: .c)
+    }
 }
+

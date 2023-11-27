@@ -8,32 +8,37 @@
 import SwiftUI
 
 struct MenuItemsView: View {
-    @State private var showList = false
+    @StateObject private var showList = MenuViewViewModel()
     var body: some View {
-        NavigationView {
             NavigationStack {
-                ScrollView{
+                ScrollView {
+                    if showList.showFood { MenuItemView(ViewModel: MenuViewViewModel(), menuItems: showList.food, menuCategory: .a)}
+                    if showList.showDrink {MenuItemView(ViewModel: MenuViewViewModel(), menuItems: showList.drink, menuCategory: .b)}
+                    if showList.ShowDessert {MenuItemView(ViewModel: MenuViewViewModel(), menuItems: showList.dessert, menuCategory: .c) }
                 }
+                .onAppear(){
+                    showList.updateMenuItems()
+                }
+                
                 .navigationTitle("Menu")
                 .navigationBarItems(trailing:
                                         Button(action: {
-                    self.showList.toggle()
+                    showList.isOpenedView.toggle()
                 }, label: {
                     Image(systemName: "line.horizontal.3.circle")
-                    }).sheet(isPresented: $showList) {
+                }).sheet(isPresented: $showList.isOpenedView) {
                             NavigationStack {
                                 MenuItemsOptionView()
+                                    .environmentObject(showList)
                                 .toolbar {
                                     Button ("Done") {
-                                        showList.toggle()
-                                    }
-                                    
-                                }
-
-                            }
-                        
-                })
-            }
+                                        showList.updateMenuItems()
+                                        showList.isOpenedView.toggle()
+                            
+                        }
+                    }
+                }
+            })
         }
     }
 }

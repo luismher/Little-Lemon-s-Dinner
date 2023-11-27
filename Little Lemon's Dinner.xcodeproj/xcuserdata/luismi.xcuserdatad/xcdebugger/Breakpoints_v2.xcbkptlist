@@ -79,6 +79,114 @@
                   endingLineNumber = "16"
                   offsetFromSymbolStart = "112">
                </Location>
+               <Location
+                  uuid = "41BDE552-6125-4170-BBC8-6EE7999C3CF6 - d1015859372f6b73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.Picker&lt;SwiftUI.Text, Little_Lemon_s_Dinner.SortBy, SwiftUI.ForEach&lt;Swift.Array&lt;Little_Lemon_s_Dinner.SortBy&gt;, Little_Lemon_s_Dinner.SortBy, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.EmptyView&gt;)&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "41BDE552-6125-4170-BBC8-6EE7999C3CF6 - 78d3c31d8d3a24ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.Picker&lt;SwiftUI.Text, Little_Lemon_s_Dinner.SortBy, SwiftUI.ForEach&lt;Swift.Array&lt;Little_Lemon_s_Dinner.SortBy&gt;, Little_Lemon_s_Dinner.SortBy, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.Picker&lt;SwiftUI.Text, Little_Lemon_s_Dinner.SortBy, SwiftUI.ForEach&lt;Swift.Array&lt;Little_Lemon_s_Dinner.SortBy&gt;, Little_Lemon_s_Dinner.SortBy, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.EmptyView&gt;)&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "004E001F-2B03-47DB-B6B0-6DC8490A4083"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Little Lemon&apos;s Dinner/Views/MenuItemsOptionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "004E001F-2B03-47DB-B6B0-6DC8490A4083 - 1cefa0004fa673c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "004E001F-2B03-47DB-B6B0-6DC8490A4083 - 820bff631004ec61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "004E001F-2B03-47DB-B6B0-6DC8490A4083 - d1015859372f6b73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.Picker&lt;SwiftUI.Text, Little_Lemon_s_Dinner.SortBy, SwiftUI.ForEach&lt;Swift.Array&lt;Little_Lemon_s_Dinner.SortBy&gt;, Little_Lemon_s_Dinner.SortBy, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.EmptyView&gt;)&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "004E001F-2B03-47DB-B6B0-6DC8490A4083 - 78d3c31d8d3a24ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.Picker&lt;SwiftUI.Text, Little_Lemon_s_Dinner.SortBy, SwiftUI.ForEach&lt;Swift.Array&lt;Little_Lemon_s_Dinner.SortBy&gt;, Little_Lemon_s_Dinner.SortBy, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.Picker&lt;SwiftUI.Text, Little_Lemon_s_Dinner.SortBy, SwiftUI.ForEach&lt;Swift.Array&lt;Little_Lemon_s_Dinner.SortBy&gt;, Little_Lemon_s_Dinner.SortBy, &lt;&lt;opaque return type of SwiftUI.View.tag&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Hashable&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;&gt;, SwiftUI.EmptyView&gt;)&gt;&gt; in Little_Lemon_s_Dinner.MenuItemsOptionView.body.getter : some"
+                  moduleName = "Little Lemon&apos;s Dinner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luismi/Documents/Xcode%20projects/Coursera/Advanced%20Programming%20in%20Swift/Little%20Lemon&apos;s%20Dinner/Little%20Lemon&apos;s%20Dinner/Views/MenuItemsOptionView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "268">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

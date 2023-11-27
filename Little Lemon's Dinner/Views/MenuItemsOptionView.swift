@@ -9,15 +9,24 @@ import SwiftUI
 
 
 struct MenuItemsOptionView: View {
-    @State private var menuItemView = MenuItemsView()
+    @EnvironmentObject var menuItemView: MenuViewViewModel
     var body: some View {
         NavigationStack {
                     
                 List {
-                    Section (header: Text ("Selected Categories")){
-                        Text ("Food")
-                        Text ("Pasta")
+                    Section ("Selected Categories"){
+                        Toggle (MenuCategory.a.rawValue, isOn: $menuItemView.showFood)
+                        Toggle (MenuCategory.b.rawValue, isOn: $menuItemView.showDrink)
+                        Toggle (MenuCategory.c.rawValue, isOn: $menuItemView.ShowDessert)
                 }
+                    Section ( "Order" ){
+                        Picker("Sort By", selection: $menuItemView.sortBy) {
+                            ForEach (SortBy.allCases, id: \.self){
+                                category in Text(category.rawValue)
+                                    .tag(category)
+                            }
+                        }
+                    }
             }
         }
     }
@@ -25,4 +34,5 @@ struct MenuItemsOptionView: View {
 
 #Preview {
     MenuItemsOptionView()
+        .environmentObject(MenuViewViewModel())
 }
